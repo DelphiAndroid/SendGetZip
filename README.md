@@ -1,6 +1,8 @@
 # SendGetZip
 Componente para enviar e receber dados dentro de um pacote ZIP entre (DELPHI &lt;--> PHP)
 
+Video de orientação: https://youtu.be/ujQq62218xc
+
 Projeto esta incompleto!
 
 As funcionalidades de compactar arquivos no Delphi, enviar para o PHP, descompactar pelo PHP, processar dados, pegar o resultado e compactar novamente e retornar para o Delphi para que ele descompacte, já esta pronta!
