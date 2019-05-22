@@ -1,0 +1,1694 @@
+object fExemplo: TfExemplo
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 598
+  ClientWidth = 669
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object OpenDialog1: TOpenDialog
+    Left = 96
+    Top = 488
+  end
+  object pageControl: TTabControl
+    Align = Client
+    Size.Width = 669.000000000000000000
+    Size.Height = 598.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 5
+    TabOrder = 6
+    TabPosition = PlatformDefault
+    Sizes = (
+      669s
+      549s
+      669s
+      549s
+      669s
+      549s
+      669s
+      549s
+      669s
+      549s
+      669s
+      549s
+      669s
+      549s)
+    object tabConfig: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 91.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Configura'#231#227'o'
+      ExplicitSize.cx = 91.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object Panel2: TPanel
+        Align = Client
+        Size.Width = 669.000000000000000000
+        Size.Height = 549.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 13
+        object Label1: TLabel
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Size.Width = 669.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 20.000000000000000000
+          TextSettings.HorzAlign = Center
+          Text = 'SendGetZip - Example'
+          TabOrder = 3
+        end
+        object LayoutTop: TLayout
+          Align = Top
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 134.000000000000000000
+          Size.Width = 649.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 12
+          object Label2: TLabel
+            Align = Left
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Right = 10.000000000000000000
+            Size.Width = 97.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 15.000000000000000000
+            TextSettings.HorzAlign = Trailing
+            Text = 'Token'
+            TabOrder = 9
+          end
+          object edToken: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Client
+            TabOrder = 3
+            Size.Width = 542.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+        object Layout2: TLayout
+          Align = Top
+          Margins.Left = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 48.000000000000000000
+          Size.Width = 649.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 6
+          object Label4: TLabel
+            Align = Left
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Right = 10.000000000000000000
+            Size.Width = 97.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 15.000000000000000000
+            TextSettings.HorzAlign = Trailing
+            Text = 'URL'
+            TabOrder = 9
+          end
+          object edURL: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Client
+            TabOrder = 3
+            Text = 'http://www.delphiandroid.com.br/'
+            Size.Width = 542.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+        object Layout1: TLayout
+          Align = Top
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 91.000000000000000000
+          Size.Width = 649.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 9
+          object Label3: TLabel
+            Align = Left
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Right = 10.000000000000000000
+            Size.Width = 97.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 15.000000000000000000
+            TextSettings.HorzAlign = Trailing
+            Text = 'Senha'
+            TabOrder = 9
+          end
+          object edSenha: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Client
+            TabOrder = 3
+            Text = '123'
+            Size.Width = 542.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+        object Layout3: TLayout
+          Align = Top
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 177.000000000000000000
+          Size.Width = 649.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 7
+          object Label7: TLabel
+            Align = Left
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Right = 10.000000000000000000
+            Size.Width = 97.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 15.000000000000000000
+            TextSettings.HorzAlign = Trailing
+            Text = 'Page'
+            TabOrder = 9
+          end
+          object edPage: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Client
+            TabOrder = 3
+            Text = 'webservice/sendgetzip.php'
+            Size.Width = 542.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+        object Button2: TButton
+          Align = Top
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Left = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 263.000000000000000000
+          Size.Width = 649.000000000000000000
+          Size.Height = 46.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = 'Enviar Pacote'
+          TextSettings.Font.Size = 18.000000000000000000
+          OnClick = Button2Click
+        end
+        object Layout5: TLayout
+          Align = Top
+          Margins.Left = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 220.000000000000000000
+          Size.Width = 649.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+          object Label8: TLabel
+            Align = Left
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Right = 10.000000000000000000
+            Size.Width = 97.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 15.000000000000000000
+            TextSettings.HorzAlign = Trailing
+            Text = 'Section'
+            TabOrder = 9
+          end
+          object edSection: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Client
+            TabOrder = 3
+            Text = 'phone_exist'
+            Size.Width = 542.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+      end
+    end
+    object tabAutenticar: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 75.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Autenticar'
+      ExplicitSize.cx = 75.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object Layout7: TLayout
+        Align = Top
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 20.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 20.000000000000000000
+        Size.Width = 649.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 5
+        object edUserMail: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          TabOrder = 3
+          Text = 'eulermagalhaes@gmail.com'
+          Margins.Left = 10.000000000000000000
+          Size.Width = 544.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object cbUserTypeLogin: TComboBox
+          Align = Left
+          Items.Strings = (
+            'None'
+            'E-mail'
+            'Celular'
+            'Doc')
+          ItemIndex = 0
+          Size.Width = 95.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 9
+          OnChange = cbUserTypeLoginChange
+        end
+      end
+      object Layout8: TLayout
+        Align = Top
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 63.000000000000000000
+        Size.Width = 649.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        object Label12: TLabel
+          Align = Left
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Right = 10.000000000000000000
+          Size.Width = 97.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 15.000000000000000000
+          TextSettings.HorzAlign = Trailing
+          Text = 'Senha'
+          TabOrder = 9
+        end
+        object EdUserPassword: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          TabOrder = 3
+          Text = '123456'
+          Size.Width = 542.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+      object Layout9: TLayout
+        Align = Top
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 20.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 106.000000000000000000
+        Size.Width = 649.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        object chkUserCreate: TCheckBox
+          Align = Client
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Left = 10.000000000000000000
+          Size.Width = 488.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 8
+          Text = 'Caso n'#227'o exista, cadastrar ?'
+          TextSettings.Font.Size = 15.000000000000000000
+        end
+        object btConectar: TButton
+          Align = Right
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 498.000000000000000000
+          Size.Width = 151.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = 'Logar'
+          TextSettings.Font.Size = 18.000000000000000000
+          OnClick = btConectarClick
+        end
+      end
+      object layoutConectarComToken: TLayout
+        Align = Top
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 20.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 20.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 180.000000000000000000
+        Size.Width = 649.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object btConectarComToken: TButton
+          Align = Right
+          Enabled = False
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 498.000000000000000000
+          Size.Width = 151.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = 'Conectar...'
+          TextSettings.Font.Size = 18.000000000000000000
+          OnClick = btConectarComTokenClick
+        end
+        object edUserToken: TLabel
+          Align = Client
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Right = 10.000000000000000000
+          Size.Width = 488.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 15.000000000000000000
+          TextSettings.HorzAlign = Trailing
+          Text = 'Token'
+          TabOrder = 6
+        end
+      end
+      object Rectangle1: TRectangle
+        Align = Top
+        Position.Y = 159.000000000000000000
+        Size.Width = 669.000000000000000000
+        Size.Height = 1.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Rectangle2: TRectangle
+        Align = Top
+        Position.Y = 233.000000000000000000
+        Size.Width = 669.000000000000000000
+        Size.Height = 1.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Layout10: TLayout
+        Align = Top
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 20.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 20.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 254.000000000000000000
+        Size.Width = 649.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object btUserRecoverPwd: TButton
+          Align = Left
+          StyledSettings = [Family, Style, FontColor]
+          Size.Width = 207.000000000000000000
+          Size.Height = 41.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = 'Recuperar acesso por ?'
+          TextSettings.Font.Size = 18.000000000000000000
+          OnClick = btUserRecoverPwdClick
+        end
+        object Layout11: TLayout
+          Align = Client
+          Margins.Left = 10.000000000000000000
+          Size.Width = 432.000000000000000000
+          Size.Height = 41.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 8
+          object rdUserRecoverMail: TRadioButton
+            Align = Left
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Size.Width = 89.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            Text = 'EMAIL'
+          end
+          object rdUserRecoverPhone: TRadioButton
+            Align = Right
+            Margins.Left = 10.000000000000000000
+            Position.X = 360.000000000000000000
+            Size.Width = 72.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            Text = 'SMS'
+          end
+        end
+      end
+      object Rectangle4: TRectangle
+        Align = Top
+        Position.Y = 315.000000000000000000
+        Size.Width = 669.000000000000000000
+        Size.Height = 1.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Layout13: TLayout
+        Align = Top
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 20.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 20.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 336.000000000000000000
+        Size.Width = 649.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object btAuthCode: TButton
+          Align = Right
+          Enabled = False
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 538.000000000000000000
+          Size.Width = 111.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = 'Autenticar'
+          TextSettings.Font.Size = 18.000000000000000000
+          OnClick = btAuthCodeClick
+        end
+        object edAuthCode: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          TabOrder = 3
+          Size.Width = 431.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Label9: TLabel
+          Align = Left
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Right = 10.000000000000000000
+          Size.Width = 97.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 15.000000000000000000
+          TextSettings.HorzAlign = Trailing
+          Text = 'Auth. Code'
+          TabOrder = 9
+        end
+      end
+      object Rectangle5: TRectangle
+        Align = Top
+        Position.Y = 389.000000000000000000
+        Size.Width = 669.000000000000000000
+        Size.Height = 1.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object tabModifyUser: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 58.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Modify'
+      ExplicitSize.cx = 58.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object Layout14: TLayout
+        Align = Top
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 20.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 20.000000000000000000
+        Size.Width = 649.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 10
+        object Label10: TLabel
+          Align = Left
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Right = 10.000000000000000000
+          Size.Width = 97.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 15.000000000000000000
+          TextSettings.HorzAlign = Trailing
+          Text = 'E-mail'
+          TabOrder = 9
+        end
+        object edUserModifyMail: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          TabOrder = 3
+          Size.Width = 447.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object btUserModifyMail: TButton
+          Align = Right
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 554.000000000000000000
+          Size.Width = 95.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = 'Modificar'
+          TextSettings.Font.Size = 18.000000000000000000
+          OnClick = btUserModifyMailClick
+        end
+      end
+      object Layout15: TLayout
+        Align = Top
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 20.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 63.000000000000000000
+        Size.Width = 649.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 8
+        object Label14: TLabel
+          Align = Left
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Right = 10.000000000000000000
+          Size.Width = 97.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 15.000000000000000000
+          TextSettings.HorzAlign = Trailing
+          Text = 'Auth. Code'
+          TabOrder = 9
+        end
+        object edUserModifyMailAuth: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          TabOrder = 3
+          Size.Width = 447.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object btUserModifyConfirm: TButton
+          Align = Right
+          Enabled = False
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 554.000000000000000000
+          Size.Width = 95.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = 'Confirmar'
+          TextSettings.Font.Size = 18.000000000000000000
+          OnClick = btUserModifyConfirmClick
+        end
+      end
+      object Rectangle6: TRectangle
+        Align = Top
+        Position.Y = 116.000000000000000000
+        Size.Width = 669.000000000000000000
+        Size.Height = 1.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Layout19: TLayout
+        Align = Top
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 180.000000000000000000
+        Size.Width = 649.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 7
+        object Label17: TLabel
+          Align = Left
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Right = 10.000000000000000000
+          Size.Width = 97.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 15.000000000000000000
+          TextSettings.HorzAlign = Trailing
+          Text = 'Auth. Code'
+          TabOrder = 9
+        end
+        object edUserModifyPwdAuth: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          TabOrder = 3
+          Size.Width = 447.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object btUserModifyConfirmPwd: TButton
+          Align = Right
+          Enabled = False
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 554.000000000000000000
+          Size.Width = 95.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = 'Confirmar'
+          TextSettings.Font.Size = 18.000000000000000000
+          OnClick = btUserModifyConfirmPwdClick
+        end
+      end
+      object Layout20: TLayout
+        Align = Top
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 20.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 137.000000000000000000
+        Size.Width = 649.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 9
+        object Label18: TLabel
+          Align = Left
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Right = 10.000000000000000000
+          Size.Width = 97.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 15.000000000000000000
+          TextSettings.HorzAlign = Trailing
+          Text = 'Password'
+          TabOrder = 9
+        end
+        object edUserModifyPwd: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          TabOrder = 3
+          Size.Width = 447.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object btUserModifyPwd: TButton
+          Align = Right
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 554.000000000000000000
+          Size.Width = 95.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = 'Modificar'
+          TextSettings.Font.Size = 18.000000000000000000
+          OnClick = btUserModifyPwdClick
+        end
+      end
+    end
+    object tabModifyInfoUser: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 41.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Info'
+      ExplicitSize.cx = 55.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout16: TLayout
+        Align = Top
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 20.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 20.000000000000000000
+        Size.Width = 649.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 14
+        object Label15: TLabel
+          Align = Left
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Right = 10.000000000000000000
+          Size.Width = 97.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 15.000000000000000000
+          TextSettings.HorzAlign = Trailing
+          Text = 'Nome'
+          TabOrder = 8
+        end
+        object edInfoUserName: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          TabOrder = 2
+          Size.Width = 542.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+      object Layout17: TLayout
+        Align = Top
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 20.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 73.000000000000000000
+        Size.Width = 649.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 13
+        object chkInfoUserAdmin: TCheckBox
+          Align = Client
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Left = 10.000000000000000000
+          Size.Width = 639.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 7
+          Text = 'Administrador'
+          TextSettings.Font.Size = 15.000000000000000000
+        end
+      end
+      object Layout18: TLayout
+        Align = Top
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 20.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 232.000000000000000000
+        Size.Width = 649.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 10
+        object btUserInfoSave: TButton
+          Align = Right
+          StyledSettings = [Family, Style, FontColor]
+          Position.X = 554.000000000000000000
+          Size.Width = 95.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = 'Salvar'
+          TextSettings.Font.Size = 18.000000000000000000
+          OnClick = btUserInfoSaveClick
+        end
+      end
+      object Layout21: TLayout
+        Align = Top
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 20.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 126.000000000000000000
+        Size.Width = 649.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 12
+        object chkInfoUserSuspender: TCheckBox
+          Align = Client
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Left = 10.000000000000000000
+          Size.Width = 639.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 7
+          Text = 'Suspenso'
+          TextSettings.Font.Size = 15.000000000000000000
+        end
+      end
+      object Layout22: TLayout
+        Align = Top
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 20.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 179.000000000000000000
+        Size.Width = 649.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 11
+        object chkInfoUserActive: TCheckBox
+          Align = Client
+          StyledSettings = [Family, Style, FontColor]
+          Margins.Left = 10.000000000000000000
+          Size.Width = 639.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 7
+          Text = 'Ativo'
+          TextSettings.Font.Size = 15.000000000000000000
+        end
+      end
+    end
+    object tabSendData: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 72.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'SendData'
+      OnClick = tabSendDataClick
+      ExplicitSize.cx = 72.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object VertScrollBox1: TVertScrollBox
+        Align = Client
+        Size.Width = 669.000000000000000000
+        Size.Height = 549.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Viewport.Width = 669.000000000000000000
+        Viewport.Height = 549.000000000000000000
+        object layParam: TLayout
+          Align = Top
+          Margins.Left = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 34.000000000000000000
+          Size.Width = 649.000000000000000000
+          Size.Height = 160.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object ListBox1: TListBox
+            Align = Client
+            Margins.Top = 10.000000000000000000
+            Size.Width = 649.000000000000000000
+            Size.Height = 112.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            DisableFocusEffect = True
+            DefaultItemStyles.ItemStyle = ''
+            DefaultItemStyles.GroupHeaderStyle = ''
+            DefaultItemStyles.GroupFooterStyle = ''
+            ShowCheckboxes = True
+            Viewport.Width = 645.000000000000000000
+            Viewport.Height = 108.000000000000000000
+          end
+          object Layout4: TLayout
+            Align = Top
+            Margins.Top = 5.000000000000000000
+            Position.Y = 5.000000000000000000
+            Size.Width = 649.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            object btAddParam: TButton
+              Align = Right
+              Position.X = 549.000000000000000000
+              Size.Width = 100.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 0
+              Text = 'Adicionar'
+              OnClick = btAddParamClick
+            end
+            object btDelParam: TButton
+              Align = Left
+              Size.Width = 80.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 1
+              Text = 'Apagar'
+              OnClick = btDelParamClick
+            end
+          end
+        end
+        object Label5: TLabel
+          Align = Top
+          StyledSettings = [Family, FontColor]
+          Size.Width = 669.000000000000000000
+          Size.Height = 34.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.HorzAlign = Center
+          Text = 'Parametros'
+          TabOrder = 1
+        end
+        object Label6: TLabel
+          Align = Top
+          StyledSettings = [Family, FontColor]
+          Position.Y = 194.000000000000000000
+          Size.Width = 669.000000000000000000
+          Size.Height = 34.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.HorzAlign = Center
+          Text = 'Arquivos'
+          TabOrder = 2
+        end
+        object layFile: TLayout
+          Align = Top
+          Margins.Left = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 228.000000000000000000
+          Size.Width = 649.000000000000000000
+          Size.Height = 160.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          object ListBox2: TListBox
+            Align = Client
+            Margins.Top = 10.000000000000000000
+            Size.Width = 649.000000000000000000
+            Size.Height = 112.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            DisableFocusEffect = True
+            DefaultItemStyles.ItemStyle = ''
+            DefaultItemStyles.GroupHeaderStyle = ''
+            DefaultItemStyles.GroupFooterStyle = ''
+            ShowCheckboxes = True
+            Viewport.Width = 645.000000000000000000
+            Viewport.Height = 108.000000000000000000
+          end
+          object Layout6: TLayout
+            Align = Top
+            Margins.Top = 5.000000000000000000
+            Position.Y = 5.000000000000000000
+            Size.Width = 649.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            object btAddFile: TButton
+              Align = Right
+              Position.X = 549.000000000000000000
+              Size.Width = 100.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 0
+              Text = 'Adicionar'
+              OnClick = btAddFileClick
+            end
+            object btDelFile: TButton
+              Align = Left
+              Size.Width = 80.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 1
+              Text = 'Apagar'
+              OnClick = btDelFileClick
+            end
+          end
+        end
+      end
+    end
+    object tabCDS_ARTIGO: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 84.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'CDS Artigos'
+      OnClick = tabCDS_ARTIGOClick
+      ExplicitSize.cx = 60.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      object listCDS: TListBox
+        Align = Client
+        Size.Width = 669.000000000000000000
+        Size.Height = 549.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        DisableFocusEffect = True
+        DefaultItemStyles.ItemStyle = ''
+        DefaultItemStyles.GroupHeaderStyle = ''
+        DefaultItemStyles.GroupFooterStyle = ''
+        Viewport.Width = 665.000000000000000000
+        Viewport.Height = 545.000000000000000000
+        object Panel1: TPanel
+          Align = Top
+          Position.Y = 289.000000000000000000
+          Size.Width = 665.000000000000000000
+          Size.Height = 57.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object btInsertMysql: TButton
+            Align = Left
+            Margins.Left = 10.000000000000000000
+            Margins.Top = 10.000000000000000000
+            Margins.Right = 10.000000000000000000
+            Margins.Bottom = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Position.Y = 10.000000000000000000
+            Size.Width = 104.000000000000000000
+            Size.Height = 37.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            Text = 'Insert'
+            OnClick = btInsertMysqlClick
+          end
+          object btUpdateMySql: TButton
+            Align = Left
+            Margins.Left = 10.000000000000000000
+            Margins.Top = 10.000000000000000000
+            Margins.Right = 10.000000000000000000
+            Margins.Bottom = 10.000000000000000000
+            Position.X = 134.000000000000000000
+            Position.Y = 10.000000000000000000
+            Size.Width = 104.000000000000000000
+            Size.Height = 37.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            Text = 'Update'
+            OnClick = btUpdateMySqlClick
+          end
+        end
+        object Panel3: TPanel
+          Align = Top
+          Size.Width = 665.000000000000000000
+          Size.Height = 289.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          object Layout23: TLayout
+            Align = Top
+            Margins.Left = 10.000000000000000000
+            Margins.Top = 20.000000000000000000
+            Margins.Right = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Position.Y = 73.000000000000000000
+            Size.Width = 645.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 14
+            object Label16: TLabel
+              Align = Left
+              StyledSettings = [Family, Style, FontColor]
+              Margins.Right = 10.000000000000000000
+              Size.Width = 97.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 15.000000000000000000
+              TextSettings.HorzAlign = Trailing
+              Text = 'Titulo'
+              TabOrder = 8
+            end
+            object edArtigoTitulo: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Client
+              TabOrder = 2
+              Size.Width = 538.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+            end
+          end
+          object Layout24: TLayout
+            Align = Top
+            Margins.Left = 10.000000000000000000
+            Margins.Top = 20.000000000000000000
+            Margins.Right = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Position.Y = 126.000000000000000000
+            Size.Width = 645.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 12
+            object Label19: TLabel
+              Align = Left
+              StyledSettings = [Family, Style, FontColor]
+              Margins.Right = 10.000000000000000000
+              Size.Width = 97.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 15.000000000000000000
+              TextSettings.HorzAlign = Trailing
+              Text = 'Descri'#231#227'o'
+              TabOrder = 8
+            end
+            object edArtigoDescricao: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Client
+              TabOrder = 2
+              Size.Width = 538.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+            end
+          end
+          object Layout25: TLayout
+            Align = Top
+            Margins.Left = 10.000000000000000000
+            Margins.Top = 20.000000000000000000
+            Margins.Right = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Position.Y = 179.000000000000000000
+            Size.Width = 645.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 11
+            object Label20: TLabel
+              Align = Left
+              StyledSettings = [Family, Style, FontColor]
+              Margins.Right = 10.000000000000000000
+              Size.Width = 97.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 15.000000000000000000
+              TextSettings.HorzAlign = Trailing
+              Text = 'Link'
+              TabOrder = 8
+            end
+            object edArtigoLink: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Client
+              TabOrder = 2
+              Size.Width = 538.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+            end
+          end
+          object Layout26: TLayout
+            Align = Top
+            Margins.Left = 10.000000000000000000
+            Margins.Top = 20.000000000000000000
+            Margins.Right = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Position.Y = 232.000000000000000000
+            Size.Width = 645.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 10
+            object Label21: TLabel
+              Align = Left
+              StyledSettings = [Family, Style, FontColor]
+              Margins.Right = 10.000000000000000000
+              Size.Width = 97.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 15.000000000000000000
+              TextSettings.HorzAlign = Trailing
+              Text = 'Categoria'
+              TabOrder = 7
+            end
+            object cbArtigoCategoria: TComboBox
+              Align = Client
+              Size.Width = 443.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 8
+            end
+            object btArtigoCategoriaEdit: TButton
+              Align = Right
+              StyledSettings = [Family, Style, FontColor]
+              Position.X = 550.000000000000000000
+              Size.Width = 95.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 2
+              Text = 'Editar'
+              TextSettings.Font.Size = 18.000000000000000000
+              OnClick = btUserModifyMailClick
+            end
+          end
+          object Layout33: TLayout
+            Align = Top
+            Margins.Left = 10.000000000000000000
+            Margins.Top = 20.000000000000000000
+            Margins.Right = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Position.Y = 20.000000000000000000
+            Size.Width = 645.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 13
+            object Label26: TLabel
+              Align = Left
+              StyledSettings = [Family, Style, FontColor]
+              Margins.Right = 10.000000000000000000
+              Size.Width = 97.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 15.000000000000000000
+              TextSettings.HorzAlign = Trailing
+              Text = 'Artigo ID'
+              TabOrder = 8
+            end
+            object edArtigoId: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Client
+              TabOrder = 2
+              Size.Width = 538.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+            end
+          end
+        end
+      end
+    end
+    object tabCDS_CATEGORIA: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 97.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'CDS Categoria'
+      ExplicitSize.cx = 97.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Panel4: TPanel
+        Align = Top
+        Size.Width = 669.000000000000000000
+        Size.Height = 425.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Layout27: TLayout
+          Align = Top
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 20.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 20.000000000000000000
+          Size.Width = 649.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 11
+          object Label22: TLabel
+            Align = Left
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Right = 10.000000000000000000
+            Size.Width = 97.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 15.000000000000000000
+            TextSettings.HorzAlign = Trailing
+            Text = 'Titulo'
+            TabOrder = 8
+          end
+          object edCategoriaLabel: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Client
+            TabOrder = 2
+            Size.Width = 542.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+        object Layout28: TLayout
+          Align = Top
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 63.000000000000000000
+          Size.Width = 649.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 10
+          object Label23: TLabel
+            Align = Left
+            StyledSettings = [Family, Style, FontColor]
+            Margins.Right = 10.000000000000000000
+            Size.Width = 97.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 15.000000000000000000
+            TextSettings.HorzAlign = Trailing
+            Text = 'Descri'#231#227'o'
+            TabOrder = 8
+          end
+          object edCategoriaDescricao: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Client
+            TabOrder = 2
+            Size.Width = 542.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+        object Layout31: TLayout
+          Align = Top
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 106.000000000000000000
+          Size.Width = 649.000000000000000000
+          Size.Height = 143.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 14
+          object Image1: TImage
+            MultiResBitmap = <
+              item
+              end>
+            Align = Right
+            Anchors = [akLeft, akTop, akRight, akBottom]
+            Margins.Left = 50.000000000000000000
+            Position.X = 107.000000000000000000
+            Size.Width = 542.000000000000000000
+            Size.Height = 100.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object btLoadPicture: TButton
+            Position.X = 11.000000000000000000
+            Position.Y = 32.000000000000000000
+            TabOrder = 12
+            Text = 'LOAD FOTO'
+            OnClick = btLoadPictureClick
+          end
+          object Layout30: TLayout
+            Align = Bottom
+            Margins.Top = 10.000000000000000000
+            Position.Y = 110.000000000000000000
+            Size.Width = 649.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 11
+            object Label25: TLabel
+              Align = Left
+              StyledSettings = [Family, Style, FontColor]
+              Margins.Right = 10.000000000000000000
+              Size.Width = 97.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 15.000000000000000000
+              TextSettings.HorzAlign = Trailing
+              Text = 'Icone'
+              TabOrder = 8
+            end
+            object Edit1: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Client
+              TabOrder = 2
+              Size.Width = 542.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+            end
+          end
+        end
+        object Layout29: TLayout
+          Align = Top
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 259.000000000000000000
+          Size.Width = 649.000000000000000000
+          Size.Height = 143.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 13
+          object Image2: TImage
+            MultiResBitmap = <
+              item
+              end>
+            Align = Right
+            Anchors = [akLeft, akTop, akRight, akBottom]
+            Margins.Left = 50.000000000000000000
+            Position.X = 107.000000000000000000
+            Size.Width = 542.000000000000000000
+            Size.Height = 100.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object Button1: TButton
+            Position.X = 11.000000000000000000
+            Position.Y = 32.000000000000000000
+            TabOrder = 12
+            Text = 'LOAD FOTO'
+            OnClick = Button1Click
+          end
+          object Layout32: TLayout
+            Align = Bottom
+            Margins.Top = 10.000000000000000000
+            Position.Y = 110.000000000000000000
+            Size.Width = 649.000000000000000000
+            Size.Height = 33.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 11
+            object Label24: TLabel
+              Align = Left
+              StyledSettings = [Family, Style, FontColor]
+              Margins.Right = 10.000000000000000000
+              Size.Width = 97.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 15.000000000000000000
+              TextSettings.HorzAlign = Trailing
+              Text = 'Icone'
+              TabOrder = 8
+            end
+            object Edit2: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Client
+              TabOrder = 2
+              Size.Width = 542.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+            end
+          end
+        end
+      end
+      object Panel5: TPanel
+        Align = Top
+        Position.Y = 425.000000000000000000
+        Size.Width = 669.000000000000000000
+        Size.Height = 57.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object btInsertCategoria: TButton
+          Align = Left
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 10.000000000000000000
+          Size.Width = 104.000000000000000000
+          Size.Height = 37.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = 'Insert'
+          OnClick = btInsertCategoriaClick
+        end
+      end
+    end
+  end
+  object panelAuthActive: TPanel
+    Position.X = 480.000000000000000000
+    Position.Y = 464.000000000000000000
+    Size.Width = 353.000000000000000000
+    Size.Height = 169.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 14
+    object Layout12: TLayout
+      Align = Top
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 20.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 20.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 79.000000000000000000
+      Size.Width = 333.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object btLoginAuthCodeActive: TButton
+        Align = Right
+        StyledSettings = [Family, Style, FontColor]
+        Position.X = 222.000000000000000000
+        Size.Width = 111.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'Autenticar'
+        TextSettings.Font.Size = 18.000000000000000000
+        OnClick = btLoginAuthCodeActiveClick
+      end
+      object edLoginAuthCodeActive: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        TabOrder = 3
+        Size.Width = 115.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Label11: TLabel
+        Align = Left
+        StyledSettings = [Family, Style, FontColor]
+        Margins.Right = 10.000000000000000000
+        Size.Width = 97.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 15.000000000000000000
+        TextSettings.HorzAlign = Trailing
+        Text = 'Auth. Code'
+        TabOrder = 9
+      end
+    end
+    object Label13: TLabel
+      Align = Top
+      StyledSettings = [Family, Style, FontColor]
+      Margins.Top = 10.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 353.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.HorzAlign = Center
+      Text = 
+        'Voc'#234' precisa informar o c'#243'digo de autentica'#231#227'o, obter acesso ao ' +
+        'sistema'
+      TabOrder = 2
+    end
+    object btLoginAuthCancelar: TButton
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 8.000000000000000000
+      Position.Y = 128.000000000000000000
+      Size.Width = 105.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = 'Cancelar'
+      TextSettings.Font.Size = 18.000000000000000000
+      OnClick = btLoginAuthCancelarClick
+    end
+  end
+  object OpenDialog2: TOpenDialog
+    Left = 490
+    Top = 203
+  end
+  object SendGetZip1: TSendGetZip
+    SendData = <>
+    GetData = <>
+    URL = 'http://www.delphiandroid.com.br/'
+    ParamPage = 'webservice/sendgetzip.php'
+    PathTemp = '2019-05-16_22-23-45_000'
+    CodeErro = 0
+    OnComplete = SendGetZip1Complete
+    OnFailed = SendGetZip1Failed
+    OnModifyUser = SendGetZip1ModifyUser
+    OnRecoverUser = SendGetZip1RecoverUser
+    OnLoginUser = SendGetZip1LoginUser
+    OnReturnCDSAfter = SendGetZip1ReturnCDSAfter
+    Left = 624
+    Top = 8
+  end
+  object cdsExemplo: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    Left = 328
+    Top = 352
+  end
+  object dsExemplo: TDataSource
+    DataSet = cdsExemplo
+    Left = 336
+    Top = 391
+  end
+  object cdsCliente: TClientDataSet
+    PersistDataPacket.Data = {
+      640100009619E0BD0100000018000000040008000000030000007F0002696401
+      00490010000100055749445448020002006400046E6F6D650100490010000100
+      0557494454480200020064000464617461010049001000010005574944544802
+      00020064000773616C6172696F01004900100001000557494454480200020064
+      000000000001310545756C65720A313938322D31302D313607323530302C3435
+      000001320849736162656C6C6109313938302D332D3136063730302C33370000
+      0133065661676E657209313939342D322D3136033938350000013407526F6765
+      72696F09313938362D372D313607313334342C33390000013507436C61756469
+      6F09313936322D362D31360435303030000001360756697669616E6509313937
+      322D382D3136053830302C390000013707436C61756469610A313939322D3132
+      2D3136063230302C30330000013807526F647269676F0A313938352D31302D31
+      36063530302C3035}
+    Active = True
+    Aggregates = <>
+    Params = <>
+    Left = 152
+    Top = 304
+  end
+  object cdsArtigo: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    Left = 248
+    Top = 265
+    object cdsArtigoart_id: TLargeintField
+      FieldName = 'art_id'
+    end
+    object cdsArtigoart_idusuario: TIntegerField
+      FieldName = 'art_idusuario'
+    end
+    object cdsArtigoart_idlinguagem: TIntegerField
+      FieldName = 'art_idlinguagem'
+    end
+    object cdsArtigoart_idcategoria: TIntegerField
+      FieldName = 'art_idcategoria'
+    end
+    object cdsArtigoart_titulo: TStringField
+      FieldName = 'art_titulo'
+      Size = 150
+    end
+    object cdsArtigoart_descricao: TStringField
+      FieldName = 'art_descricao'
+      Size = 500
+    end
+    object cdsArtigoart_link: TStringField
+      FieldName = 'art_link'
+      Size = 300
+    end
+  end
+  object ActionList1: TActionList
+    Left = 544
+    Top = 8
+    object TakePhotoFromLibraryAction1: TTakePhotoFromLibraryAction
+      Category = 'Media Library'
+      OnDidFinishTaking = TakePhotoFromLibraryAction1DidFinishTaking
+    end
+  end
+  object cdsCategoria: TClientDataSet
+    Aggregates = <>
+    Params = <>
+    Left = 370
+    Top = 131
+    object cdsCategoriacat_id: TAutoIncField
+      FieldName = 'cat_id'
+    end
+    object cdsCategoriacat_nome: TStringField
+      FieldName = 'cat_nome'
+      Size = 50
+    end
+    object cdsCategoriacat_descricao: TStringField
+      FieldName = 'cat_descricao'
+      Size = 100
+    end
+    object cdsCategoriacat_remove: TWordField
+      FieldName = 'cat_remove'
+    end
+  end
+end

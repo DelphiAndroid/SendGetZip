@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/04/21 20:20:47.000.252,=C:\Users\Euler\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/08/03 15:47:39.000.165,=C:\Users\Euler\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/08/03 15:57:58.000.432,=C:\Users\Euler\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2015/12/09 12:24:02.000.714,=C:\Users\Euler\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/04/13 17:25:07.000.405,=C:\Users\Euler\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/04/13 18:47:59.000.192,=C:\Users\Euler\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/07/31 09:59:28.000.586,=C:\Users\Euler\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/08/11 17:59:49.000.351,=C:\Users\Euler\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/08/11 20:17:34.000.373,=C:\Users\Euler\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/08/12 10:49:09.000.462,=C:\Users\Euler\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/24 18:00:33.211,=C:\Users\Euler\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/24 18:26:43.934,=C:\Users\Euler\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2017/10/24 18:27:47.338,E:\DelphiProjeto\SendGetPHP\SendGetPHP.pas=C:\Users\Euler\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2017/10/24 18:28:03.005,E:\DelphiProjeto\SendGetPHP\SendGetPHP_Exemplo\Unit1.fmx=C:\Users\Euler\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2017/10/24 18:28:03.005,E:\DelphiProjeto\SendGetPHP\SendGetPHP_Exemplo\Unit1.pas=C:\Users\Euler\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/24 18:28:17.917,E:\DelphiProjeto\SendGetPHP\SendGetPHP_Exemplo\Project1.dproj=C:\Users\Euler\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2017/10/24 18:28:26.484,E:\DelphiProjeto\SendGetPHP\SendGetPHP_Exemplo\uMain.fmx=E:\DelphiProjeto\SendGetPHP\SendGetPHP_Exemplo\Unit1.fmx</Transaction>
+    <Transaction>2017/10/24 18:28:26.484,E:\DelphiProjeto\SendGetPHP\SendGetPHP_Exemplo\uMain.pas=E:\DelphiProjeto\SendGetPHP\SendGetPHP_Exemplo\Unit1.pas</Transaction>
+    <Transaction>2017/10/25 17:13:28.375,=E:\DelphiProjeto\SendGetPHP\SendGetPHP_Exemplo\TSendGet.pas</Transaction>
+    <Transaction>2017/10/25 17:13:35.127,E:\DelphiProjeto\SendGetPHP\SendGetPHP.pas=</Transaction>
+    <Transaction>2017/10/25 17:13:49.537,E:\DelphiProjeto\SendGetPHP\SendGetPHP_Exemplo\SendGet.pas=E:\DelphiProjeto\SendGetPHP\SendGetPHP_Exemplo\TSendGet.pas</Transaction>
+    <Transaction>2017/10/25 17:14:18.053,E:\DelphiProjeto\SendGetPHP\SendGetPHP_Exemplo\Exemplo.fmx=E:\DelphiProjeto\SendGetPHP\SendGetPHP_Exemplo\uMain.fmx</Transaction>
+    <Transaction>2017/10/25 17:14:18.053,E:\DelphiProjeto\SendGetPHP\SendGetPHP_Exemplo\Exemplo.pas=E:\DelphiProjeto\SendGetPHP\SendGetPHP_Exemplo\uMain.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

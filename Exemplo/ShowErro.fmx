@@ -1,0 +1,42 @@
+object fShowErro: TfShowErro
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 238
+  ClientWidth = 819
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Align = Client
+    Size.Width = 819.000000000000000000
+    Size.Height = 181.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Viewport.Width = 815.000000000000000000
+    Viewport.Height = 177.000000000000000000
+  end
+  object Panel1: TPanel
+    Align = Bottom
+    Position.Y = 181.000000000000000000
+    Size.Width = 819.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object fShowErro: TButton
+      Align = Center
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Size.Width = 213.000000000000000000
+      Size.Height = 37.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'OK'
+      OnClick = fShowErroClick
+    end
+  end
+end

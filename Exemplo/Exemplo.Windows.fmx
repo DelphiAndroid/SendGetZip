@@ -1,0 +1,354 @@
+inherited fExemplo_Windows: TfExemplo_Windows
+  ClientWidth = 487
+  DesignerMasterStyle = 0
+  inherited pageControl: TTabControl
+    Size.Width = 487.000000000000000000
+    Sizes = (
+      487s
+      549s
+      487s
+      549s
+      487s
+      549s
+      487s
+      549s
+      487s
+      549s
+      487s
+      549s
+      487s
+      549s)
+    inherited tabConfig: TTabItem
+      ExplicitSize.cx = 91.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      inherited Panel2: TPanel
+        Size.Width = 487.000000000000000000
+        inherited Label1: TLabel
+          Size.Width = 487.000000000000000000
+        end
+        inherited LayoutTop: TLayout
+          Size.Width = 467.000000000000000000
+          inherited edToken: TEdit
+            Size.Width = 360.000000000000000000
+          end
+        end
+        inherited Layout2: TLayout
+          Size.Width = 467.000000000000000000
+          inherited edURL: TEdit
+            Size.Width = 360.000000000000000000
+          end
+        end
+        inherited Layout1: TLayout
+          Size.Width = 467.000000000000000000
+          inherited edSenha: TEdit
+            Size.Width = 360.000000000000000000
+          end
+        end
+        inherited Layout3: TLayout
+          Size.Width = 467.000000000000000000
+          inherited edPage: TEdit
+            Size.Width = 360.000000000000000000
+          end
+        end
+        inherited Button2: TButton
+          Size.Width = 467.000000000000000000
+        end
+        inherited Layout5: TLayout
+          Size.Width = 467.000000000000000000
+          inherited edSection: TEdit
+            Size.Width = 360.000000000000000000
+          end
+        end
+      end
+    end
+    inherited tabAutenticar: TTabItem
+      ExplicitSize.cx = 75.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      inherited Layout7: TLayout
+        Size.Width = 467.000000000000000000
+        inherited edUserMail: TEdit
+          Size.Width = 362.000000000000000000
+        end
+      end
+      inherited Layout8: TLayout
+        Size.Width = 467.000000000000000000
+        inherited EdUserPassword: TEdit
+          Size.Width = 360.000000000000000000
+        end
+      end
+      inherited Layout9: TLayout
+        Size.Width = 467.000000000000000000
+        inherited chkUserCreate: TCheckBox
+          Size.Width = 306.000000000000000000
+        end
+        inherited btConectar: TButton
+          Position.X = 316.000000000000000000
+        end
+      end
+      inherited layoutConectarComToken: TLayout
+        Size.Width = 467.000000000000000000
+        inherited btConectarComToken: TButton
+          Position.X = 316.000000000000000000
+        end
+        inherited edUserToken: TLabel
+          Size.Width = 306.000000000000000000
+        end
+      end
+      inherited Rectangle1: TRectangle
+        Size.Width = 487.000000000000000000
+      end
+      inherited Rectangle2: TRectangle
+        Size.Width = 487.000000000000000000
+      end
+      inherited Layout10: TLayout
+        Size.Width = 467.000000000000000000
+        inherited Layout11: TLayout
+          Size.Width = 250.000000000000000000
+          inherited rdUserRecoverPhone: TRadioButton
+            Position.X = 178.000000000000000000
+          end
+        end
+      end
+      inherited Rectangle4: TRectangle
+        Size.Width = 487.000000000000000000
+      end
+      inherited Layout13: TLayout
+        Size.Width = 467.000000000000000000
+        inherited btAuthCode: TButton
+          Position.X = 356.000000000000000000
+        end
+        inherited edAuthCode: TEdit
+          Size.Width = 249.000000000000000000
+        end
+      end
+      inherited Rectangle5: TRectangle
+        Size.Width = 487.000000000000000000
+      end
+    end
+    inherited tabModifyUser: TTabItem
+      ExplicitSize.cx = 58.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      inherited Layout14: TLayout
+        Size.Width = 467.000000000000000000
+        inherited edUserModifyMail: TEdit
+          Size.Width = 265.000000000000000000
+        end
+        inherited btUserModifyMail: TButton
+          Position.X = 372.000000000000000000
+        end
+      end
+      inherited Layout15: TLayout
+        Size.Width = 467.000000000000000000
+        inherited edUserModifyMailAuth: TEdit
+          Size.Width = 265.000000000000000000
+        end
+        inherited btUserModifyConfirm: TButton
+          Position.X = 372.000000000000000000
+        end
+      end
+      inherited Rectangle6: TRectangle
+        Size.Width = 487.000000000000000000
+      end
+      inherited Layout19: TLayout
+        Size.Width = 467.000000000000000000
+        inherited edUserModifyPwdAuth: TEdit
+          Size.Width = 265.000000000000000000
+        end
+        inherited btUserModifyConfirmPwd: TButton
+          Position.X = 372.000000000000000000
+        end
+      end
+      inherited Layout20: TLayout
+        Size.Width = 467.000000000000000000
+        inherited edUserModifyPwd: TEdit
+          Size.Width = 265.000000000000000000
+        end
+        inherited btUserModifyPwd: TButton
+          Position.X = 372.000000000000000000
+        end
+      end
+    end
+    inherited tabModifyInfoUser: TTabItem
+      ExplicitSize.cx = 55.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited Layout16: TLayout
+        Size.Width = 467.000000000000000000
+        inherited edInfoUserName: TEdit
+          Size.Width = 360.000000000000000000
+        end
+      end
+      inherited Layout17: TLayout
+        Size.Width = 467.000000000000000000
+        inherited chkInfoUserAdmin: TCheckBox
+          Size.Width = 457.000000000000000000
+        end
+      end
+      inherited Layout18: TLayout
+        Position.Y = 179.000000000000000000
+        Size.Width = 467.000000000000000000
+        inherited btUserInfoSave: TButton
+          Position.X = 372.000000000000000000
+        end
+      end
+      inherited Layout21: TLayout
+        Size.Width = 467.000000000000000000
+        inherited chkInfoUserSuspender: TCheckBox
+          Size.Width = 457.000000000000000000
+        end
+      end
+      inherited Layout22: TLayout
+        Position.Y = 232.000000000000000000
+        Size.Width = 467.000000000000000000
+        inherited chkInfoUserActive: TCheckBox
+          Size.Width = 457.000000000000000000
+        end
+      end
+    end
+    inherited tabSendData: TTabItem
+      ExplicitSize.cx = 72.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      inherited VertScrollBox1: TVertScrollBox
+        Size.Width = 487.000000000000000000
+        Viewport.Width = 487.000000000000000000
+        Viewport.Height = 549.000000000000000000
+        inherited layParam: TLayout
+          Size.Width = 467.000000000000000000
+          inherited ListBox1: TListBox
+            Size.Width = 467.000000000000000000
+            Viewport.Width = 467.000000000000000000
+            Viewport.Height = 112.000000000000000000
+          end
+          inherited Layout4: TLayout
+            Size.Width = 467.000000000000000000
+            inherited btAddParam: TButton
+              Position.X = 367.000000000000000000
+            end
+          end
+        end
+        inherited Label5: TLabel
+          Size.Width = 487.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+        inherited Label6: TLabel
+          Size.Width = 487.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+        inherited layFile: TLayout
+          Size.Width = 467.000000000000000000
+          inherited ListBox2: TListBox
+            Size.Width = 467.000000000000000000
+            Viewport.Width = 467.000000000000000000
+            Viewport.Height = 112.000000000000000000
+          end
+          inherited Layout6: TLayout
+            Size.Width = 467.000000000000000000
+            inherited btAddFile: TButton
+              Position.X = 367.000000000000000000
+            end
+          end
+        end
+      end
+    end
+    inherited tabCDS_ARTIGO: TTabItem
+      ExplicitSize.cx = 60.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      inherited listCDS: TListBox
+        Size.Width = 487.000000000000000000
+        Viewport.Width = 483.000000000000000000
+        Viewport.Height = 545.000000000000000000
+        inherited Panel1: TPanel
+          Size.Width = 483.000000000000000000
+        end
+        inherited Panel3: TPanel
+          Size.Width = 483.000000000000000000
+          inherited Layout23: TLayout
+            Size.Width = 463.000000000000000000
+            inherited edArtigoTitulo: TEdit
+              Size.Width = 356.000000000000000000
+            end
+          end
+          inherited Layout24: TLayout
+            Size.Width = 463.000000000000000000
+            inherited edArtigoDescricao: TEdit
+              Size.Width = 356.000000000000000000
+            end
+          end
+          inherited Layout25: TLayout
+            Size.Width = 463.000000000000000000
+            inherited edArtigoLink: TEdit
+              Size.Width = 356.000000000000000000
+            end
+          end
+          inherited Layout26: TLayout
+            Size.Width = 463.000000000000000000
+            inherited cbArtigoCategoria: TComboBox
+              Size.Width = 261.000000000000000000
+            end
+            inherited btArtigoCategoriaEdit: TButton
+              Position.X = 368.000000000000000000
+            end
+          end
+          inherited Layout33: TLayout
+            Size.Width = 463.000000000000000000
+            inherited edArtigoId: TEdit
+              Size.Width = 356.000000000000000000
+            end
+          end
+        end
+      end
+    end
+    inherited tabCDS_CATEGORIA: TTabItem
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited Panel4: TPanel
+        Size.Width = 487.000000000000000000
+        inherited Layout27: TLayout
+          Size.Width = 467.000000000000000000
+          inherited edCategoriaLabel: TEdit
+            Size.Width = 360.000000000000000000
+          end
+        end
+        inherited Layout28: TLayout
+          Size.Width = 467.000000000000000000
+          inherited edCategoriaDescricao: TEdit
+            Size.Width = 360.000000000000000000
+          end
+        end
+        inherited Layout31: TLayout
+          Size.Width = 467.000000000000000000
+          inherited Image1: TImage
+            Position.X = 21.000000000000000000
+            Size.Width = 446.000000000000000000
+          end
+          inherited btLoadPicture: TButton
+            Anchors = [akLeft, akTop, akBottom]
+          end
+          inherited Layout30: TLayout
+            Size.Width = 467.000000000000000000
+            inherited Edit1: TEdit
+              Size.Width = 360.000000000000000000
+            end
+          end
+        end
+        inherited Layout29: TLayout
+          Size.Width = 467.000000000000000000
+          inherited Image2: TImage
+            Size.Width = 360.000000000000000000
+          end
+          inherited Layout32: TLayout
+            Size.Width = 467.000000000000000000
+            inherited Edit2: TEdit
+              Size.Width = 360.000000000000000000
+            end
+          end
+        end
+      end
+      inherited Panel5: TPanel
+        Size.Width = 487.000000000000000000
+      end
+    end
+  end
+  inherited SendGetZip1: TSendGetZip
+    PathTemp = '2019-05-16_22-23-45_436'
+  end
+end

@@ -1,0 +1,74 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 317
+  ClientWidth = 280
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnClose = FormClose
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    Align = Top
+    StyledSettings = [Family, Style, FontColor]
+    Size.Width = 280.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.HorzAlign = Center
+    Text = 'Nome'
+    TabOrder = 1
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    TabOrder = 3
+    Position.X = 20.000000000000000000
+    Position.Y = 49.000000000000000000
+    Margins.Left = 20.000000000000000000
+    Margins.Right = 20.000000000000000000
+    Size.Width = 240.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Button1: TButton
+    Align = Top
+    StyledSettings = [Family, Style, FontColor]
+    Margins.Left = 20.000000000000000000
+    Margins.Top = 20.000000000000000000
+    Margins.Right = 20.000000000000000000
+    Position.X = 20.000000000000000000
+    Position.Y = 182.000000000000000000
+    Size.Width = 240.000000000000000000
+    Size.Height = 43.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = 'Ok'
+    TextSettings.Font.Size = 20.000000000000000000
+  end
+  object Edit2: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    TabOrder = 2
+    Position.X = 20.000000000000000000
+    Position.Y = 129.000000000000000000
+    Margins.Left = 20.000000000000000000
+    Margins.Right = 20.000000000000000000
+    Size.Width = 240.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label2: TLabel
+    Align = Top
+    StyledSettings = [Family, Style, FontColor]
+    Position.Y = 82.000000000000000000
+    Size.Width = 280.000000000000000000
+    Size.Height = 47.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.HorzAlign = Center
+    Text = 'Valor'
+    TabOrder = 0
+  end
+end

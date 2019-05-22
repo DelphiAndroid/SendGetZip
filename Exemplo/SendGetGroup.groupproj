@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{BB5072F2-6D38-4053-8EF4-54797750B6C5}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="ExemploSendGet.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\DelphiAndroid.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ExemploSendGet">
+        <MSBuild Projects="ExemploSendGet.dproj"/>
+    </Target>
+    <Target Name="ExemploSendGet:Clean">
+        <MSBuild Projects="ExemploSendGet.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ExemploSendGet:Make">
+        <MSBuild Projects="ExemploSendGet.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DelphiAndroid">
+        <MSBuild Projects="..\DelphiAndroid.dproj"/>
+    </Target>
+    <Target Name="DelphiAndroid:Clean">
+        <MSBuild Projects="..\DelphiAndroid.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiAndroid:Make">
+        <MSBuild Projects="..\DelphiAndroid.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ExemploSendGet;DelphiAndroid"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ExemploSendGet:Clean;DelphiAndroid:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ExemploSendGet:Make;DelphiAndroid:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
